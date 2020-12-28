@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.ant-tabs-ink-bar ,.ant-tabs-ink-bar-animated {
+  background-color: #8C6239 !important; 
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color:  #634629 !important;
+}
+
+.ant-tabs-tab-btn:hover {
+  color: #056b3c !important;
+}
