@@ -5,7 +5,6 @@ nz-header {
 
 nz-content {
   background-color: white;
-
 }
 .center {
   margin-left: auto;
@@ -16,5 +15,74 @@ nz-content {
   width: 1088px;
   margin-left: auto;
   margin-right: auto;
-  
+}
+
+.p2 {
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.p3 {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}
+.div3 {
+  width: 352px;
+  height: 513px;
+  border: 3px solid #614237;
+}
+.setimg {
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-top: 47px;
+  margin-bottom: 47px;
+  width: 146px;
+  height: 146px;
+}
+.p4 {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #3e261d;
+  text-align: center;
+}
+nz-footer {
+  height: 490px;
+  background-color: #c6a966;
+}
+.test {
+  border: 3px solid #614237;
+}
+.zoom {
+  transition: transform 0.4s;
+  overflow: hidden;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.overflow {
+  overflow: hidden;
+}
+.backimg {
+  background-image: url("../../../assets/BG@3x.png");
+  width: 1088px;
+  height: 520px;
+  margin-top: 30px;
+}
+.logotab2 {
+  width: 391px;
+  height: 125px;
+}
+.phara {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
 }
