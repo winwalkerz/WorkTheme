@@ -28,19 +28,33 @@ nz-content {
   font-size: 30px;
   font-weight: normal;
   color: white;
+  padding-left: 2px;
+}
+.p25{
+  font-size: 25px;
+  font-weight: lighter;
+  padding-left: 3px;
 }
 .p18 {
   font-size: 18px;
   color: white;
   font-weight: lighter;
-
+  padding-left: 2px;
 }
-
+.p20{
+  font-size: 20px;
+  font-weight: lighter;
+}
 .p3 {
   font-size: 20px;
   font-weight: lighter;
   text-align: center;
   color: white;
+}
+.p17{
+  font-size: 17px;
+  margin-bottom: 0px;
+  margin-left: 4px;
 }
 .div3 {
   width: 352px;
@@ -55,6 +69,12 @@ nz-content {
   margin-bottom: 47px;
   width: 146px;
   height: 146px;
+}
+.date{
+  font-size: 17px;
+  color: #7E7E7E;
+  font-weight: 450px;
+  padding-left: 5px;
 }
 .p4 {
   font-size: 40px;

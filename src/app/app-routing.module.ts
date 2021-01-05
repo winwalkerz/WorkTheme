@@ -11,7 +11,8 @@ const routes: Routes = [
     path: 'tab1',
     loadChildren: () =>
       import('./Pages/main/tab1/tab1.module').then(m => m.Tab1Module)
-  }
+  },
+  { path: 'product-details', loadChildren: () => import('./Pages/main/product-details/product-details.module').then(m => m.ProductDetailsModule) }
 ];
 
 @NgModule({
